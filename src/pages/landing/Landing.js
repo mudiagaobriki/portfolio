@@ -51,13 +51,16 @@ const Landing = ({ name }) => {
             className="description"
             onInit={(typewriter) => {
               typewriter
-                .typeString("I'm a Developer")
-                .pauseFor(1500)
-                .deleteChars(9)
-                .typeString("Designer")
+                .typeString("Front End Developer")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("Bringing your ideas to life")
+                .typeString("Backend Developer")
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString("Mobile Developer")
+                .pauseFor(1500)
+                .deleteAll()
+                .typeString("From Ideas to Reality, Thoughts to Businesses")
                 .start();
             }}
           />
